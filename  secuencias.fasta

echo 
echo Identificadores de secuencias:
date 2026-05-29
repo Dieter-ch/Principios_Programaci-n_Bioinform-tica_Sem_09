@@ -1,0 +1,4 @@
+Archivo FASTA creado: secuencias.fasta
+echo 
+echo Número de secuencias:
+grep -c 
