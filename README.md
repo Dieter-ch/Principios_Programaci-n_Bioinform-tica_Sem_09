@@ -53,7 +53,7 @@ direccionaremos con `>` a un archivo llamado `secuencias.fasta`.
 el segundo comando `grep -c"^>"`, con grep buscaremos patrones y con -c cuenta coincidencias dentro del texto, ^ es el inicio de línea, > 
 es el patron que buscará.
 
-el tercer comando `awk` buscara patrones, pero con length() va a contar caracteres (cada caracter es un nucleotido) 
+el tercer comando **awk** buscara patrones, pero con **length()** va a contar caracteres (cada caracter es un nucleotido), **id=$0** es donde se va a guardar el nombre de la secuencia, **secuencia=""** vacía la variable para comenzar la siguiente secuencia, **next** dice que pasara a la siguiente línea, **{  secuencia=secuencia $0  }** concatena líneas de ADN, Bloque **END** se ejecuta cuando termian de leer todo el archivo, **print id ": " length(secuencia) " nucleótidos"** imprime la secuencia y el calculo de su longitud.
 
 
 
