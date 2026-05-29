@@ -17,7 +17,10 @@ el segundo comando `date`, con este comando muestra la fecha y hora actual del s
 
 el tercer comando `pwd`, con este comando podemos veer el directorio de trabajo actual.
 
-el cuarto comando `du -sh .`, con este comando calcula cuánto espacio ocupan archivos y carpetas.
+el cuarto comando `du -sh .`, con este comando calcula cuánto espacio ocupan archivos y 
+carpetas.
+
+el quinto comando `ls -lh`, con este comando podemos listar archivos y directorios.
 
 **Script 2 - Organizador de Datos**
 
@@ -25,6 +28,14 @@ Creamos un script llamado `organizador_datos.sh` que incluye:
 - Una estructura de carpetas para un proyecto bioinformatico
 - Creamos archivos
 - Listamos la estructura completa
+  
+La explicación es:
+
+el primer comando `mkdir -p`, con este comando podemos crear directorios en cadena.
+
+el segundo comando `touch`, nos sirvio para crear archivos usando una ruta.
+
+el tercer comando `tree`, con este comando pudimos mostrar una estructura de arbol de los archivos. 
 
 **Script 3 - Procesador de Secuencias**
 
@@ -34,11 +45,15 @@ Creamos un script llamado `procesador_fasta.sh` que incluye:
 - Extraimos los identificadores (lineas que comienzan con `>`)
 - Calculamos la longitus aproximada de cada secuencia
 
+la explicación es:
 
+el primero comando `cat`, lo usaremos para crear archivo, con `<<EOF` todo lo escrito hasta el siguiente EOF será enviado a cat luego 
+direccionaremos con `>` a un archivo llamado `secuencias.fasta`.
 
+el segundo comando `grep -c"^>"`, con grep buscaremos patrones y con -c cuenta coincidencias dentro del texto, ^ es el inicio de línea, > 
+es el patron que buscará.
 
-
-
+el tercer comando `awk` buscara patrones, pero con length() va a contar caracteres (cada caracter es un nucleotido) 
 
 
 
