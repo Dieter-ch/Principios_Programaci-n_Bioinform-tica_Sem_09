@@ -1,4 +1,4 @@
-# Principios_Programaci-n_Bioinform-tica_Sem_09
+# Principios_Programacion_Bioinformatica_Sem_09
 
 **Script 1 - Informe del sistema**
 
