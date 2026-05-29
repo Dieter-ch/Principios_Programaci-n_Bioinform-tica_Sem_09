@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 echo "========================================"
@@ -11,11 +10,11 @@ mkdir -p proyecto_bioinformático/{datos_crudos,datos_procesados,resultados,scri
 echo "Directorios creados correctamente."
 
 # Crear archivos de ejemplo
-touch proyecto_bioinformático/datos_crudos/muestra1.fastq
-touch proyecto_bioinformático/datos_crudos/muestra2.fastq
+touch proyecto_bioinformatico/datos_crudos/muestra1.fastq
+touch proyecto_bioinformatico/datos_crudos/muestra2.fastq
 
-touch proyecto_bioinformático/scripts/analisis.sh
-touch proyecto_bioinformático/reporte/README.txt
+touch proyecto_bioinformatico/scripts/analisis.sh
+touch proyecto_bioinformatico/reporte/README.txt
 
 echo "Archivos de ejemplo creados."
 
