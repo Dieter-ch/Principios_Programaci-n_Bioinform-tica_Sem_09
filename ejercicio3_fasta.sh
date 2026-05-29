@@ -1,4 +1,4 @@
-#!/bien/bash
+#!/bin/bash
 # ejercicio3_fasta.sh
 
 # Crear archivo FASTA de ejemplo
@@ -11,13 +11,13 @@ GCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTAGCTA
 TTACGTTACGTTACGTTACGTTACGTTACGTTACGTTACGTTACG
 EOF
 
-echo "Archivo FASTA creado: secuencias.fasta
+echo "Archivo FASTA creado: secuencias.fasta"
 echo ""
 echo "Número de secuencias:"
 grep -c ">" secuencias.fasta
 
 echo ""
-echo ""Identificadores de secuencias:"
+echo "Identificadores de secuencias:"
 grep ">" secuencias.fasta
 
 echo "" 
